@@ -5,7 +5,7 @@ const app = express();
 
 require('./startup/prod')(app);
 
-mongoose.connect('mongodb://localhost/nodestudydb', {
+mongoose.connect('mongodb+srv://admin:6670517@cluster0-oaiei.gcp.mongodb.net/nodeStudy', {
   useNewUrlParser: true
 })
   .then(() => console.log('Connected to MongoDB...'))

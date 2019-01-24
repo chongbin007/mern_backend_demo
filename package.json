@@ -13,8 +13,10 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {"node":"v11.7.0"},
   "keywords": [],
   "author": "",
   "license": "ISC"
